@@ -11,11 +11,12 @@ def main():
 # Calculate the amount of the discount.
 discount = "original_price" *2
 
-# Calculate the sale price.
-sale_price = "original_price' -discount"
+# Calculate the sale price. 
+sale_price='orginal_price' -discount
 
 #Display the sale price. 
-print('The sale price is', 200)
-pass
+print('The final price is',200)
+#pass
 if __name__ == '__main_':                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
     main()
+main()
