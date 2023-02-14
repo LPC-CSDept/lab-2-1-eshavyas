@@ -18,6 +18,7 @@ def main():
 
    #Display the sale price. 
    print ('The original price is', original_price)
+   print ('The discount price is', discount)
    print ('The sale price is', sale_price)
 
    #pass
