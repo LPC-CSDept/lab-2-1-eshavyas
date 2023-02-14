@@ -9,10 +9,11 @@ def main():
    original_price =float (input("Enter the item original price: "))
 
    # Calculate the amount of the discount.
-   discount = "original_price" *2
+#    discount = "original_price" *2
+   discount = original_price *2
 
    # Calculate the sale price. 
-   sale_price='orginal_price' -discount
+   sale_price=orginal_price -discount
 
    #Display the sale price. 
    print ('The sale price is', sale_price)
