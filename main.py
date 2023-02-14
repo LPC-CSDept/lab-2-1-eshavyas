@@ -7,10 +7,11 @@ def main():
 
    # Get the item's orginal price.
    original_price =float (input("Enter the item original price: "))
+   drate = int (input("Enter the item original price: "))
 
    # Calculate the amount of the discount.
 #    discount = "original_price" *2
-   discount = original_price *2
+   discount = original_price * drate / 100
 
    # Calculate the sale price. 
    sale_price= original_price - discount
