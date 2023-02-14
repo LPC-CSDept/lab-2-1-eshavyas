@@ -13,7 +13,7 @@ def main():
    discount = original_price *2
 
    # Calculate the sale price. 
-   sale_price=orginal_price -discount
+   sale_price= original_price - discount
 
    #Display the sale price. 
    print ('The sale price is', sale_price)
