@@ -16,6 +16,7 @@ def main():
    sale_price= original_price - discount
 
    #Display the sale price. 
+   print ('The original price is', original_price)
    print ('The sale price is', sale_price)
 
    #pass
